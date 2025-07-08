@@ -57,8 +57,8 @@ public class Cambio {
     }
 
     public String toString(){
-        System.out.println("Valor do dolar: 3.10" + "\n"
-                +     "Quantidade:"  + getCompraDolar() +"\n"
+        System.out.println("Valor do dolar: "+ getPrecoDolar() + "\n"
+                +     "Quantidade: "  + getCompraDolar() +"\n"
                 + "Valor total a pagar: " + getValorTotal());
         return "";
     }
